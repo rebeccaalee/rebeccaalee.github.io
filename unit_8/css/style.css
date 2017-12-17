@@ -1,0 +1,134 @@
+header {
+  background-color: white;
+  width: 100%;
+  padding: 0px;
+}
+
+nav {
+  font-family: "Arial", Arial, sans-serif;
+  text-decoration: none;
+  background-color: white;
+  color: gray;
+  width: 70%;
+  padding: 0px;
+}
+
+section {
+  background-color: white;
+  padding: 0px;
+}
+
+img, img.scale-with-grid { outline: 0; max-width: 100%; height: auto; }
+
+h1 {
+      font-family: "Arial", Arial, sans-serif;
+      font-size: 2em;
+      color: white;
+      position: absolute;
+      top: 25%; 
+      margin:auto;   
+      width: 100%;
+   font-variant: small-caps;
+}
+a {text-decoration: none; }
+
+h2 {
+  font-family: "Arial", Arial, sans-serif;
+      font-size: 2em;
+      color: gray;
+}
+
+h3 {
+    font-family: "Arial", Arial, sans-serif;
+      font-size: 1em;
+      color: #b900b9;
+}
+
+.image {
+  position: relative;
+  width: 100px;
+
+}
+#intro {
+  font-size: 2em
+  width: 100%;
+}
+
+#blog {
+  width: 100%;
+}
+
+#testimonials_two_column {
+  background-color: white;
+  padding: 20px;
+}
+
+#left {
+  background-color: white;
+  padding: 20px;
+  float: left;
+  width: 50%;
+      font-family: "Arial", Arial, sans-serif;
+      font-size: 1em;
+      color: #b900b9;
+
+}
+
+#right {
+  background-color: white;
+  padding: 20px;
+  float: right;
+  width: 50%;
+      font-family: "Arial", Arial, sans-serif;
+      font-size: 1em;
+      color: #b900b9;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " "
+  clear: both;
+  height: 0;
+}
+
+.button {
+    background-color: #b900b9;  
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-variant: small-caps;
+    margin: 0 auto;
+    position: absolute;
+    cursor: pointer;
+    left: 40%;
+      top: 35%  ;
+      width: 200px;
+
+
+}
+.main-body button { margin: 0 auto; }
+
+
+  
+footer {
+  font-family: "Arial", Arial, sans-serif;
+  color: white;
+  background-color: gray;
+  width: 100%;
+  padding: 20px;
+}
+
+.hero {
+  background-image: url('../images/cover.jpg');
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  text-align: center;
+}
+
+
